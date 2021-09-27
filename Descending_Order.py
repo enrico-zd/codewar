@@ -11,6 +11,7 @@ Input: 123456789 Output: 987654321
 
 """
 
+# cara sendiri
 # answer
 def descending_order(num):
     angka = [int(x) for x in str(num)]
@@ -25,3 +26,7 @@ def descending_order(num):
     return hasil
 
 print(descending_order(123456789))
+
+# cara solusi
+def Descending_Order(num):
+    return int("".join(sorted(str(num), reverse=True)))
