@@ -12,6 +12,7 @@ Input: 123456789 Output: 987654321
 """
 
 # cara sendiri
+# answer
 def descending_order(num):
     angka = [int(x) for x in str(num)]
     data = len(angka)-1

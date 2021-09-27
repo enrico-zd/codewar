@@ -11,6 +11,7 @@ For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should r
 """
 
 # cara sendiri
+# answer
 def coba(a):
     while True:
         x = 0
@@ -27,8 +28,6 @@ def coba(a):
         
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
 print(coba(a))
-
-
 
 # cara solusi 1
 def count_positives_sum_negatives(arr):
